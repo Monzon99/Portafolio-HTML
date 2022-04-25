@@ -19,12 +19,10 @@ html{
 
 /* Perfil */
 .perfil__circulo{
-    border-radius: 50%;
-    height: 50px;
+    width: 50%;
     overflow: hidden;
     margin: 0;
     padding: 0;
-    width: 50px;
 }
 
 .perfil__foto{
@@ -34,8 +32,8 @@ html{
 .perfil__nombres{
     color: #fff;
     font-size: 20px;
-    width: 75%;
-    margin-left: .5em;
+    width: 70%;
+    margin-left: .5%;
 }
 
 .perfil__nombres, .perfil__circulo{
