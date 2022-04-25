@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 html{
     font-family: "Lato", sans-serif;
 }
@@ -13,7 +14,7 @@ html{
     padding: 1em;
     position: fixed;
     top: 0;
-    width: 350px;
+    width: 35%;
 }
 
 /* Perfil */
@@ -33,7 +34,7 @@ html{
 .perfil__nombres{
     color: #fff;
     font-size: 20px;
-    width: 250px;
+    width: 75%;
     margin-left: .5em;
 }
 
@@ -81,7 +82,7 @@ html{
 /*Proyectos*/
 
 .proyectos{
-    margin-left: 350px;
+    margin-left: 35%;
     padding: 1em;
     display: table;
 }
