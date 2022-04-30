@@ -15,7 +15,16 @@ a{
     margin-left: 25%;
     width: 75%;
     height: calc(100vh - 3px) !important;
-    border-style: dashed;
+    border-top: 8px solid #29597c;
+    border-bottom: 8px solid #29597c;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #29597c;
 }
 
 .lateral{
@@ -26,6 +35,9 @@ a{
     position: fixed;
     top: 0;
     width: 25%;
+    border-top: 8px solid #29597c;
+    border-bottom: 8px solid #29597c;
+    border-left: 8px solid #29597c;
 }
 
 /* Perfil */
