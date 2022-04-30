@@ -7,6 +7,17 @@ html{
     font-family: "Lato", sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+.Principal{
+    margin-left: 25%;
+    width: 75%;
+    height: calc(100vh - 3px) !important;
+    border-style: dashed;
+}
+
 .lateral{
     background-color: skyblue;
     bottom: 0;
@@ -14,7 +25,7 @@ html{
     padding: 1em;
     position: fixed;
     top: 0;
-    width: 350px;
+    width: 25%;
 }
 
 /* Perfil */
@@ -33,7 +44,7 @@ html{
 .perfil__nombres{
     color: #fff;
     font-size: 20px;
-    width: 250px;
+    width: 65%;
     margin-left: .5em;
 }
 
@@ -81,7 +92,6 @@ html{
 /*Proyectos*/
 
 .proyectos{
-    margin-left: 350px;
     padding: 1em;
     display: table;
 }
@@ -99,6 +109,7 @@ html{
 .proyecto__titulo{
     color: #29597c;
     font-size: 18px;
+    text-align: center;
 }
 
 .proyecto__descripcion{
@@ -120,7 +131,14 @@ html{
         margin-left: 0;
         width: 100%;
     }
+
+    .Principal{
+        margin-left: 0%;
+        width: 100%;
+    }
 }
+
+
 
 @media screen and (max-width:400px) {
     .lateral{
