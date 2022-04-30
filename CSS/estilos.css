@@ -110,7 +110,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .proyecto{
-    width: 50%;
+    width: 45%;
     display: table-cell;
     padding: 1em;
 }
@@ -182,6 +182,33 @@ body::-webkit-scrollbar-thumb{
     }
 }
 
+@media screen and (max-width:300px) {
+    .lateral{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .perfil__nombres{
+        position: relative;
+    }
+
+    .informacion{
+        position: relative;
+    }
+
+    .proyectos{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .proyecto{
+        width: 100%;
+        display: block;
+        border: none;
+    }
+}
+
 @media screen and (max-height:500px) {
     .lateral{
         width: 100%;
@@ -212,7 +239,7 @@ body::-webkit-scrollbar-thumb{
     }
 }
 
-@media screen and (max-height:400px) {
+@media screen and (max-height:300px) {
     .lateral{
         width: 100%;
         height: 100%;
