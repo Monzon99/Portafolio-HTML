@@ -28,7 +28,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .lateral{
-    background-color: skyblue;
+    background-color: rgb(203, 201, 201);
     bottom: 0;
     left: 0;
     padding: 1em;
@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .perfil__nombres{
-    color: #fff;
+    color: #082a42;
     font-size: 20px;
     width: 65%;
     margin-left: .5em;
@@ -68,7 +68,7 @@ body::-webkit-scrollbar-thumb{
 /* Informacion*/
 
 .informacion{
-    color: #0f6a62;
+    color: #082a42;
     position: absolute;
     bottom: 1em;
 }
@@ -84,7 +84,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .habilidad{
-    background-color: #0f6a62;
+    background-color: #29597c;
     color: #fff;
     font-size: 12px;
     display: inline-block;
@@ -133,6 +133,7 @@ body::-webkit-scrollbar-thumb{
         width: 100%;
         height: auto;
         position: relative;
+        border-right: 8px solid #29597c;
     }
 
     .informacion{
@@ -147,6 +148,7 @@ body::-webkit-scrollbar-thumb{
     .Principal{
         margin-left: 0%;
         width: 100%;
+        border: none;
     }
 }
 
@@ -175,5 +177,6 @@ body::-webkit-scrollbar-thumb{
     .proyecto{
         width: 100%;
         display: block;
+        border: none;
     }
 }
