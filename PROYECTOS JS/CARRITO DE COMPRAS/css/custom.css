@@ -14,6 +14,13 @@ h4 {
     font-size: 16px;
     font-weight: 700;
 }
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #29597c;
+}
 header {
     padding: 20px 0 0 0;
     background: white;
