@@ -27,6 +27,15 @@ body::-webkit-scrollbar-thumb{
     background: #29597c;
 }
 
+.tituloProyec{
+    background-color:#082a42;
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
 .row{
     display: inline-block;
 }
